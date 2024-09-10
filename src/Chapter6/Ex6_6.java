@@ -1,3 +1,5 @@
+package Chapter6;
+
 class Data { int x; }
 
 public class Ex6_6 {

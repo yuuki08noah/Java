@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.stream.Collectors;
+package Chapter6;
 
 public class Ex6_2 {
   public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Chapter6;
+
 public class Ex6_9 {
   public static void main(String[] args) {
     MyMath2 myMath = new MyMath2();
