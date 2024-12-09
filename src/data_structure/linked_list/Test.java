@@ -1,4 +1,4 @@
-package data_structure;
+package data_structure.linked_list;
 
 public class Test {
   public static void main(String[] args) {
@@ -8,11 +8,11 @@ public class Test {
     linkedList.add(30);
     linkedList.printAll();
 
-    linkedList.remove(2);
+    linkedList.remove(2L);
     linkedList.printAll();
 
-    linkedList.insert(0, 50);
-    linkedList.insert(1, 70);
+    linkedList.insert(0L, 50);
+    linkedList.insert(1L, 70);
     linkedList.printAll();
     linkedList.printReversed();
   }

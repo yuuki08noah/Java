@@ -1,4 +1,4 @@
-package data_structure;
+package data_structure.linked_list;
 
 public class Node<T> {
   T data;
@@ -18,6 +18,6 @@ public class Node<T> {
 
   @Override
   public String toString() {
-    return (prev == null ? "null" : prev.data.toString()) + " " + data.toString() + " " + (next == null ? "null" : next.data.toString());
+    return data.toString();
   }
 }

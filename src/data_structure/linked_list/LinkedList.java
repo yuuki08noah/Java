@@ -1,8 +1,8 @@
-package data_structure;
+package data_structure.linked_list;
 
 public class LinkedList<T> implements List<T> {
   private Node<T> head;
-  private Integer size = 0;
+  private Long size = 0L;
 
   @Override
   public Node<T> add(T element) {
@@ -24,7 +24,7 @@ public class LinkedList<T> implements List<T> {
   }
 
   @Override
-  public Node<T> remove(Integer index) {
+  public Node<T> remove(Long index) {
     if(index >= size || index < 0) {
       return null;
     }
@@ -44,7 +44,7 @@ public class LinkedList<T> implements List<T> {
   }
 
   @Override
-  public Node<T> insert(Integer index, T element) {
+  public Node<T> insert(Long index, T element) {
     if(index >= size) {
       return null;
     }
@@ -80,7 +80,7 @@ public class LinkedList<T> implements List<T> {
   }
 
   @Override
-  public Node<T> get(Integer index) {
+  public Node<T> get(Long index) {
     if(index >= size || index < 0) {
       return null;
     }
@@ -116,11 +116,11 @@ public class LinkedList<T> implements List<T> {
   @Override
   public void removeAll() {
     head = null;
-    size = 0;
+    size = 0L;
   }
 
   @Override
-  public Integer getSize() {
+  public Long getSize() {
     return size;
   }
 
